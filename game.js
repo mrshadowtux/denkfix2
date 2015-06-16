@@ -24,7 +24,7 @@ $(document).ready
 		{
 			var alphabet=["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","R","S","T","U","V","W","Z"];
 			var buchstabenzahl=alphabet.length;
-			var zufall=zufallszahl(1,buchstabenzahl);
+			var zufall=zufallszahl(0,buchstabenzahl);
 			return alphabet[zufall];
 		}
 
@@ -35,7 +35,7 @@ $(document).ready
 			var frageok=false;
 			while(frageok==false)
 			{
-				var zufall=zufallszahl(1,fragenzahl);
+				var zufall=zufallszahl(0,fragenzahl);
 				if($.inArray(zufall,fragengespielt)!==-1)
 				{
 					frageok=false;
