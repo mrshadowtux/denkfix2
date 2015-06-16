@@ -143,14 +143,14 @@ var fragen=[
 "Ein Ermittler aus einem Krimi",
 "Etwas, was stinkt",
 "Etwas, was jeder von uns zuhause hat",
-"Kinderlied",
-"Gefühl",
-"Baumart",
-"Obst",
-"Gemüse",
-"Etwas was man am strand finden kann",
-"Ein planet",
+"Ein Kinderlied",
+"Ein Gefühl",
+"Eine Baumart",
+"Ein Obst",
+"Ein Gemüse",
+"Etwas, was man am Strand finden kann",
+"Ein Planet",
 "Ein Tier im Zoo",
-"Etwas was man im Zirkus sieht",
-"Etwas mit dem man sich aufwärmen kann"
+"Etwas, was man im Zirkus sieht",
+"Etwas, mit dem man sich aufwärmen kann"
 ]
