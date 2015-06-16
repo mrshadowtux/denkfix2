@@ -1,5 +1,6 @@
 @import url("reset.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:400,700");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 html,body
@@ -67,6 +68,7 @@ main header
   padding-bottom: 1em;
   padding-left: 1.5em;
   padding-right: 1.5em;
+  font-family: "Oswald";
 }
 
 main header h1
