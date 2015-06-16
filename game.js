@@ -119,6 +119,9 @@ $(document).ready
 						}
 						else
 						{
+							$("audio#soundfx").trigger("stop");
+							$("audio#soundfx").attr("src","wiederkeiner.ogg");
+							$("audio#soundfx").trigger("play");
 							alert("Also Merlin hätte das gewusst!");
 						}
 
