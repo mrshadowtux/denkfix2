@@ -22,6 +22,7 @@ section#intro
   background-color: #319d94;
   color: #ffffff;
   padding-top: 4em;
+  z-index: 1;
 }
 
 section#intro h1
@@ -236,4 +237,29 @@ section#antwortbuttons ul li button:before
 section#antwortbuttons ul li#button_niemand button:before
 {
   content: "\f00d";
+}
+
+aside#github
+{
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  z-index: 0;
+}
+
+aside#github a
+{
+  color: #0000ff;
+  text-decoration: none;
+}
+
+aside#github a:before
+{
+  font-family: "FontAwesome";
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f09b";
+  color: #000000;
+  padding-right: 0.5em;
 }
