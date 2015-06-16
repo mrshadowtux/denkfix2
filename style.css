@@ -65,26 +65,13 @@ main header
   color: #ffffff;
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 main header h1
 {
-  float: left;
-  margin-right: 1em;
-  font-weight: bold;
-}
-
-main header h1:before
-{
-  font-family: "FontAwesome";
-  font-weight: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\f0eb";
-  font-style: normal;
-  padding-right: 0.5em;
+  display: none;
 }
 
 main header ul#punktestand
@@ -110,10 +97,31 @@ main header ul#punktestand li
   list-style-type: none;
 }
 
+main header ul#punktestand li:before
+{
+  font-family: "FontAwesome";
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f007";
+  padding-right: 0.5em;
+}
+
 main header output#fragenummer
 {
-  float: right;
+  float: left;
   display: block;
+  margin-right: 4em;
+}
+
+main header output#fragenummer:before
+{
+  font-family: "FontAwesome";
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f017";
+  padding-right: 0.5em;
 }
 
 article#frage
