@@ -8,7 +8,7 @@ $(document).ready
 
 		function zufallszahl(min,max)
 		{
-			return(min+Math.round(Math.random()*(max-min)));
+			return(min+Math.floor(Math.random()*(max-min)));
 		}
 
 
