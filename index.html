@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+  <title>Denkfix</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <noscript>
+    <p>Dieses Spiel benötigt Javascript, um zu funktionieren. Bitte aktivieren Sie Javascript im Browser oder fügen in Noscript eine Ausnahmeregel hinzu..</p>
+  </noscript>
+
+
+  <section id="intro">
+    <h1>Denkfix</h1>
+    <button>Spiel starten</button>
+  </section>
+
+
+  <main>
+    <header>
+      <h1>Denkfix</h1>
+      <output id="fragenummer"></output>
+      <ul id="punktestand">
+        <li>Spielstände werden geladen..</li>
+      </ul>
+    </header>
+
+    <article id="frage">
+      <button id="neubuchstabe"></button>
+      <p>Frage wird geladen..</p>
+    </article>
+
+    <section id="antwortbuttons">
+      <h2>Wer weiß das</h2>
+      <ul>
+        <li>Antwortbuttons werden geladen..</li>
+      </ul>
+    </section>
+  </main>
+
+
+  <aside id="github">
+    <a href="https://github.com/mrshadowtux/denkfix2">Sourcecode auf Github</a>
+  </aside>
+
+
+  <script src="jquery-1.11.3.min.js"></script>
+  <script src="fragen.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
