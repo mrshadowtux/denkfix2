@@ -144,7 +144,6 @@ $(document).ready
 				(
 					function()
 					{
-						// das hier holt einen nuen buchstaben
 						$("article#frage p span").html(getbuchstabe());
 					}
 				);
